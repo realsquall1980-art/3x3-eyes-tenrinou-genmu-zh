@@ -2,7 +2,7 @@
 
 **3x3 Eyes: Tenrinou Genmu（3×3 EYES 〜転輪王幻夢〜, PS1, SLPS-01497 / 01498 / 01499）— Simplified Chinese translation patch v6.9**
 
-作者：**自由之紫Roy** ｜ 发布：2026-11-02 ｜ [补丁下载（Releases）](https://github.com/realsquall1980-art/3x3-eyes-tenrinou-genmu-zh/releases)
+作者：**自由之紫Roy** ｜ 发布：2026-11-02 ｜ [补丁下载](https://github.com/realsquall1980-art/3x3-eyes-tenrinou-genmu-zh/tree/main/patches)
 
 ![标题画面](screenshots/01_title.jpg)
 
