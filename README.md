@@ -53,7 +53,7 @@
 2. 用 UPS 打补丁工具（Windows：UPS Patcher / RomPatcher.js；macOS：`flips`）把对应碟的 `.ups` 打到该碟 `Track 1` BIN 上。
 3. 用打好的 Track 1 覆盖原盘同名文件，保留原盘其余 Track 与 `.cue`，用模拟器直接打开 `.cue`。
 
-底包与成品校验值见 [SHA256SUMS.txt](SHA256SUMS.txt)，对不上就是拿错盘了。
+补丁成品的 SHA-256 见 [SHA256SUMS.txt](SHA256SUMS.txt)；底包用 Redump dat 里的 SHA-1 对（见 docs/patch-guide.md）。
 
 > **下载卡在几百 KB 不动？** 这是 GitHub 文件域名在中国大陆的线路问题，不是文件坏了。把原链接前面加上 `https://gh-proxy.com/` 再下即可。
 

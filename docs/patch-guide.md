@@ -71,10 +71,12 @@ chdman info -i "Disc1.chd"     # 确认碟号与轨道信息
 
 ## 六、下载疑难（中国大陆）
 
-Release 资产走 `objects.githubusercontent.com`，国内直连常见「几 KB/s 后断流」。把链接改写为：
+补丁放在仓库的 `patches/` 目录（本仓库**没有** Release 资产，别去找 releases 页面）。国内直连 GitHub 文件域常见「几 KB/s 后断流」，把 raw 链接前面加 `https://gh-proxy.com/`：
 
 ```
-https://gh-proxy.com/https://github.com/realsquall1980-art/3x3-eyes-tenrinou-genmu-zh/releases/download/v6.9/3x3Eyes_Disc1_zh_v69.ups
+https://gh-proxy.com/https://raw.githubusercontent.com/realsquall1980-art/3x3-eyes-tenrinou-genmu-zh/main/patches/3x3Eyes_Disc1_zh_v69.ups
 ```
+
+三个文件名：`3x3Eyes_Disc1_zh_v69.ups` / `3x3Eyes_Disc2_zh_v69.ups` / `3x3Eyes_Disc3_zh_v69.ups`。
 
 下完先 `shasum -a 256` 对一遍 [SHA256SUMS.txt](../SHA256SUMS.txt)，再打补丁——代理站偶尔会吐残缺文件，校验能挡住。

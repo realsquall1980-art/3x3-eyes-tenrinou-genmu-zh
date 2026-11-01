@@ -1,8 +1,8 @@
-sha256  patches/3x3Eyes_Disc1_zh_v69.ups
-sha256  patches/3x3Eyes_Disc2_zh_v69.ups
-sha256  patches/3x3Eyes_Disc3_zh_v69.ups
-
-# 说明
-# 1) 以上三项是随仓库发布的 UPS 补丁（patches/ 目录），`shasum -a 256 -c SHA256SUMS.txt` 可直接校验。
-# 2) 装机用 CHD 成盘（Disc1/2/3.chd）**不对外发布**：它等同于原版盘内容，属版权物。
-#    需要用掌机内置模拟器时，按 docs/patch-guide.md 用打好的 BIN 自行转 CHD。
+# 三只眼 转轮王幻梦 · 简体中文汉化 v6.9 —— 补丁成品校验值（SHA-256）
+# 用法：把三个 .ups 放到与本文件同一层级的 patches/ 目录后，执行
+#   shasum -a 256 -c SHA256SUMS.txt
+# 底包不在本仓库：日版 Redump 三碟 Track 1 的校验请按 docs/patch-guide.md 用 Redump dat 的 SHA-1 对。
+# 本仓库不发布 CHD 成盘（等同于原版盘内容，属版权物）；需要掌机 CHD 请用打好的 BIN 自行转换。
+02406c06f8954ec090c4e1703482d48d8555d362f1e73e7e6a07293caf045950  patches/3x3Eyes_Disc1_zh_v69.ups
+a2bfb7bc55c1dfce9fe9c48cdf1fae3a23302bdfd3685971dfe5af1d05d443f2  patches/3x3Eyes_Disc2_zh_v69.ups
+80778bf76cf6c580985c135cce9bb50fa334dbbf23f8a727b3a8f7acb7e1e0b0  patches/3x3Eyes_Disc3_zh_v69.ups
