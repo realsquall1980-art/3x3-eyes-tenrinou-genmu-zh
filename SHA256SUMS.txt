@@ -1,15 +1,10 @@
-# 三只眼 转轮王幻梦 · 简体中文汉化 v7.3 —— 校验值（SHA-256）
-# 用法：把三个 .ups 与 patch-guide 里的 Track 1.bin 放到同一层目录后执行
-#   shasum -a 256 -c SHA256SUMS.txt
-# 底包校验值（Redump 日版 Track 1 的 CRC32 / SHA-1 / SHA-256）见 docs/patch-guide.md
-# 本仓库不发布 CHD 成盘（等同于原版盘内容，属版权物）；需要掌机 CHD 请用打好的 BIN 自行转换。
-
-# --- 补丁（Releases 资产）---
-84f16c7feae9e100f812dce191b5df949393074e4ad8f51d5d8fc4bfa383db55  3x3Eyes_Disc1_zh_v73.ups
-13d57a1668ca5e425c13cd535752c325fda8ff9a87147ec5bd06b0970fe40552  3x3Eyes_Disc2_zh_v73.ups
-83b23294cc1ab3d76fe541b88a60149f5ace8503178f1d85bc0ac75c12c108ba  3x3Eyes_Disc3_zh_v73.ups
-
-# --- 打完补丁后的成品 Track 1.bin ---
-5e097b88fd196cc8b20c48458bf0a737da9131f11e9b47429322100dc4367db9  work-bin/v73-disc1.bin
-6f9fb1fcd9f68340c3a84ba646c9b691840ba63a6a469691e1803a030fdb2026  work-bin/v73-disc2.bin
-53da2d64d17c9805815d31aa0f05eaa11f6ef10eff7662731e3a8879e0e25c9e  work-bin/v73-disc3.bin
+# 三只眼 转轮王幻梦 · 简体中文汉化 v1.1 —— 补丁校验值（SHA-256）
+# 用法：把三个 .ups 与本文件放到同一层目录，然后
+#   macOS / Linux : shasum -a 256 -c SHA256SUMS.txt
+#   Windows       : certutil -hashfile 3x3Eyes_Disc1_zh_v1.1.ups SHA256
+# 本文件只列补丁（Releases v1.1 的三个资产）。底包与打好的成品校验值见 docs/patch-guide.md。
+# 本仓库不发布 CHD / 完整镜像（等同于原版盘内容）；掌机要 CHD 请用打好的盘自行转换。
+# 注意：文件里不要夹空行，shasum -c 会把空行判成 improperly formatted。
+81cdc7f2c2ec8d7be281f374779004aca9b4c0b2af6d4a3e67fbba8b06664bd1  3x3Eyes_Disc1_zh_v1.1.ups
+b73c4b15b04058e172c4bcc166660545910c61b8a19c6e44aaf0286f935d5ad3  3x3Eyes_Disc2_zh_v1.1.ups
+f8036ea9007f3c8ea5db6de74ac4ec17712390808ea75be6f329cf213c4c85a9  3x3Eyes_Disc3_zh_v1.1.ups

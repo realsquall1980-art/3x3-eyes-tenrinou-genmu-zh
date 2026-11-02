@@ -1,10 +1,21 @@
-# 补丁位置（v7.3）
+# 补丁位置（v1.1）
 
-三个 UPS 补丁单文件 224 / 316 / 356 MiB，超过 GitHub 仓库 100 MiB 单文件上限，所以切成 `v73/*.zip.00N` 分卷存放。
+三个 UPS 单文件 224 / 316 / 356 MiB，超过 GitHub 仓库单文件 100 MiB 上限，所以**不放仓库目录**，放在 **Releases**：
 
-- **Windows**：7-Zip 打开 `Disc1.ups.zip.001` → 提取（自动拼后续分卷）
-- **macOS / Linux**：`cat Disc1.ups.zip.00* > Disc1.ups.zip && unzip Disc1.ups.zip`
+**https://github.com/realsquall1980-art/3x3-eyes-tenrinou-genmu-zh/releases/tag/v1.1**
 
-拼好后可用仓库根目录 `SHA256SUMS.txt` 核对补丁 SHA-256。
+| 碟 | 资产文件名 | 大小 |
+|---|---|---|
+| Disc 1 | `3x3Eyes_Disc1_zh_v1.1.ups` | 234,993,256 B |
+| Disc 2 | `3x3Eyes_Disc2_zh_v1.1.ups` | 331,089,513 B |
+| Disc 3 | `3x3Eyes_Disc3_zh_v1.1.ups` | 372,847,304 B |
 
-旧的 v6.9 补丁已删除：UPS 编码不符合规范（`flips` 等常规工具一律报 `This patch is not intended for this ROM`），且底包不是日版原盘，任何人都装不上。
+单文件直下，不需要拼分卷。国内直连卡住时在链接前加 `https://gh-proxy.com/`。
+
+下完用仓库根目录 `SHA256SUMS.txt` 核对 SHA-256。
+
+## 本目录此前放过什么
+
+v7.3 的三碟补丁曾以 90 MiB 分卷 zip 的形式放在 `v73/`（`Disc1.ups.zip.001…004` 等 9 个文件），已**全部删除**。
+
+那一版的内容已经被 v1.1 取代：标题末行是 8 个字挤在 84 像素宽的窄条里（字被压小）、暂停菜单「存档／读取」没有居中、署名里还带着日期。请直接用 v1.1，不要再用分卷包。
