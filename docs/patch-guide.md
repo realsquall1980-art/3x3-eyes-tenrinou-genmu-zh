@@ -9,7 +9,16 @@
 | Disc 2 | `3x3Eyes_Disc2_zh_v73.ups` | 316 MiB | SLPS-01498 Track 1 | `be2ecda1` |
 | Disc 3 | `3x3Eyes_Disc3_zh_v73.ups` | 356 MiB | SLPS-01499 Track 1 | `9e61224f` |
 
-补丁在仓库的 **Releases** 页面下载（单文件超过 GitHub 仓库 100 MB 限制，所以放 Release 资产）。
+补丁在仓库 `patches/v73/` 下，**按分卷 zip 存放**（单文件超过 GitHub 仓库 100 MB 限制）：
+
+- **Windows**：用 7-Zip 打开 `Disc1.ups.zip.001`，直接「提取」（7-Zip 会自动拼后续分卷）
+- **macOS / Linux**：
+  ```bash
+  cd patches/v73
+  cat Disc1.ups.zip.00* > Disc1.ups.zip && unzip Disc1.ups.zip
+  ```
+
+每碟解出一个 `.ups`，就是补丁本体。
 
 ## 一、准备底包
 

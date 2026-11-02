@@ -2,7 +2,7 @@
 
 **3x3 Eyes: Tenrinou Genmu（3×3 EYES 〜転輪王幻夢〜, PS1, SLPS-01497 / 01498 / 01499）— Simplified Chinese translation patch v7.3**
 
-作者：**自由之紫Roy** ｜ 发布：2026-11-02 ｜ [补丁下载](https://github.com/realsquall1980-art/3x3-eyes-tenrinou-genmu-zh/releases)
+作者：**自由之紫Roy** ｜ 发布：2026-11-02 ｜ [补丁下载](patches/v73/)
 
 ![标题画面](screenshots/01_title.jpg)
 
@@ -13,11 +13,24 @@
 
 ## 安装（本版底包 = Redump 日版 Track 1）
 
+### 〇、先把分卷拼回一个 zip（一次性）
+
+三个补丁都超过 GitHub 单文件 100 MiB 上限，所以切成 `patches/v73/*.zip.00N` 分卷。
+
+- **Windows**：装 7-Zip → 右键 `Disc1.ups.zip.001` →「提取到当前文件夹」，7-Zip 会自动拼接后续分卷
+- **macOS / Linux**：
+  ```bash
+  cd patches/v73
+  cat Disc1.ups.zip.00* > Disc1.ups.zip && unzip Disc1.ups.zip
+  ```
+
+解出来的 `3x3Eyes_Disc1_zh_v73.ups` 就是补丁本体；每碟同样操作一次。
+
 ### 一、先核对底包
 
 补丁是 **UPS 一步补丁**：直接打在**日版原盘的 Track 1.bin** 上，**不需要**任何中间版本。
 
-| 碟 | 补丁文件 | 底包 CRC32 | 底包 SHA-1 |
+| 碟 | 补丁文件（分卷 zip） | 底包 CRC32 | 底包 SHA-1 |
 |---|---|---|---|
 | Disc 1 | `3x3Eyes_Disc1_zh_v73.ups`（224 MiB） | `9880cffa` | `22c8248fae3346c5106cd14da14d9d4586119de5` |
 | Disc 2 | `3x3Eyes_Disc2_zh_v73.ups`（316 MiB） | `be2ecda1` | `c171f39c0da86bf6fe9e9e8d728b431ca060eadf` |
